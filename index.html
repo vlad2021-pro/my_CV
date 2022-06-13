@@ -1,68 +1,120 @@
-<!doctype html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
-    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
-    <style>
-        html,
-body {
-  height: 100%;
-}
-
-html,
-body,
-input,
-textarea,
-button {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
-}
-
-
-/**
- * Sidebar CSS
- */
-#sidebar {
-
-  
-  background-color: #ffde59;
-  padding: 79px;
-}
-
-@media (min-width: 768px) {
-  #sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 180px;
-    height: 100%;
-    padding-top: 30px;
-  }
-}
-
-/**
- * Content CSS
- */
-@media (min-width: 768px) {
-  #content {
-    margin-left: 180px;
-  }
-}
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Podkova:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
 </head>
-
 <body>
-    <div id="sidebar">
-       
-    </div>
-    <div id="content" class="mui-container-fluid">
-        <div class="mui--text-light mui--text-display1 mui--align-vertical">SAMPLE BLOG</div>
+    <div class="layout">
+        <div class="sidebar">
+        <img src="images/title-sambarmen.png" alt="Фото" />
+        <div class="contacts">
+            <h3>CONTACTS:</h3>
+            <p>
+            +38 (067) 99-09-010
+            moymarvel96@gmail.com
+            www.linkedin.com/in/vlad-2021pro
+            https://github.com/vlad2021-pro
+            Dnipro, Ukraine</p>
+        </div>
+        <div class="tech-skills">
+            <h3>TECHNICAL SKILLS:</h3>
+            <ul>
+                <li>HTML5/CSS3</li>
+                <li>JavaScript Es6+</li>
+                <li>React.js</li>
+                <li>Figma</li>
+                <li>GIT</li>
+                <li>NPM</li>
+            </ul>
+
+        </div>
+        <div class="soft-skills">
+            <h3>SOFT SKILLS:</h3>
+            <ul>
+                <li>Responsible</li>
+                <li>Proactive</li>
+                <li>Able to work in a team and individually</li>
+                <li>Punctual</li>
+            </ul>
+        
+        </div>
+        
+        </div>
+        <div class="header-content">
+            <div class="box-header">
+                <h1 class="name">TYKHOVSKIY <br> VLADYSLAV</h1>
+                <p class="job-title">Front-End Developer</p>
+            </div>
+            
+
+            <div class="summary">
+                <h3 class="summary-title">SUMMARY:<h3>
+                        <p class="text-content">I am a Front-End developer looking for a full-time position in a insuccessful company to develop my
+                            skills as well as
+                            grow with a team. I have sound knowledge of HTML, CSS, JavaScript and learning React. Also, I have
+                            hands-on experience
+                            in following Agile / Scrum methodology when working in a team. I am a fast learner,
+                            responsible, and ready for challenging tasks.</p>
+            </div>
+            
+            <div class="project-experience">
+                <h3 class="project-experience-title">PROJECT EXPERIENCE:<h3>
+                        <ul class="work-experience-list, text-content">
+                            <li>- FILMOTEKA, https://github.com/korolovdmitriy/filmoteka-team-project [HTML, SASS, JS, Parcel]
+                                Application for choosing a movie. Role: Developer.</li>
+                            <li>- 3D FREEDOM https://github.com/dimatomilow/3D-Mode-team5 [HTML, SASS, Parcel]
+                                A website with a responsive layout. Role: Developer.</li>
+                        </ul>
+            </div>
+            <div class="work-experience">
+                <h3 class="work-experience-title">WORK EXPERIENCE:<h3>
+                    <p class="text-content">Sales Manager in agricultural sector</p>
+                    <p class="text-content">AgroTechSupplies | 2019- present</p>
+                    <ul class="text-content">
+                        <li>- selling machine parts</li>
+                        <li>- working in 1C programme</li>
+                        <li>- dealing with debit debt cases</li>
+                        <li>- communication with agriculture bloggers</li>
+                    </ul>
+                     
+            </div>
+            <div class="education">
+                <h3 class="education-title">EDUCATION:<h3>
+                        <div class="full-stack , text-content">
+<p>IT School</p>
+<p>GoIT | 2021- present</p>
+<p>Full stack developer online course (30 hours per week)</p>
+                        </div>
+                        <div class="designer, text-content">
+<p>IT School</p>
+<p>Prog.kiev.ua | May-September 2020</p>
+<p>Web & UI/UX online course (20 hours per week)</p>
+                        </div>
+                        <div class="project, text-content">
+<p>Academy of Civil Engineering and Architecture</p>
+<p>Economics department | 2017- 2018</p>
+<p>Master in Project Management)</p>
+                        </div>
+                        <div class="civil-engineering, text-content">
+<p>Academy of Civil Engineering and Architecture</p>
+<p>Civil Eengineering department | 2017- 2019</p>
+<p>Master in Civil Engineering</p>
+                        </div>
+            
+            </div>
+            
+        </div>
+
+
+
+
     </div>
 </body>
-
 </html>

@@ -1,0 +1,80 @@
+body {
+    font-family: 'Podkova', serif;
+}
+
+.layout {
+    width: 980px;
+    margin: auto;
+    position: relative;
+    /* Относительное позиционирование */
+}
+
+.sidebar,
+.header-content {
+    position: absolute;
+}
+
+.sidebar {
+    background: #ffde59;
+    /* Цвет фона */
+    width: 250px;
+    /* Ширина колонки */
+}
+
+.header-content {
+    
+    left: 250px;
+    width: 800px;
+    
+}
+
+.box-header {
+    background-color: #373741;
+    margin-left: 2px;
+    top: 20px;
+    height: 160px;
+    text-align: center;
+}
+
+.name{
+    color: #e1d8cf; 
+    padding-top: 15px ;
+}
+
+.job-title {
+    color: white;
+}
+
+.summary, 
+.project-experience,
+.work-experience,
+.education
+
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    
+}
+
+.summary-title,
+.project-experience-title,
+.work-experience-title,
+.education-title
+{
+    font-size: 15px;
+color: #e1d8cf;
+background-color: #373741;
+height: 40px;
+padding-top: 20px;
+padding-left: 10px;
+
+
+}
+
+.text-content {
+   font-size: 12px;
+   font-weight: 300;
+    padding: 10px;
+   
+}
